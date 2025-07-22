@@ -1,0 +1,159 @@
+/* style.css */
+:root {
+  --navy-blue: #002147;
+  --gold: #FFD700;
+  --light-gray: #f4f4f4;
+  --dark-gray: #333;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--navy-blue);
+  color: var(--white);
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: var(--white);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  color: var(--dark-gray);
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  color: var(--navy-blue);
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: var(--navy-blue);
+  margin-top: 0;
+}
+
+.intro {
+  margin-bottom: 25px;
+  color: var(--dark-gray);
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+.help-text {
+  display: block;
+  font-size: 0.85em;
+  color: #666;
+  font-weight: normal;
+  font-style: italic;
+  margin-top: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: var(--white);
+  transition: border-color 0.3s;
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--navy-blue);
+}
+
+button {
+  padding: 12px 24px;
+  background-color: var(--gold);
+  color: var(--dark-gray);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+button.secondary {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+}
+
+button.secondary:hover {
+  background-color: #e0e0e0;
+}
+
+#result {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: var(--light-gray);
+  border-left: 5px solid var(--navy-blue);
+  border-radius: 6px;
+  color: var(--dark-gray);
+}
+
+#resultContent {
+  margin-bottom: 20px;
+}
+
+.step {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.step:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--navy-blue);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .actions {
+    flex-direction: column;
+  }
+  
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
