@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
       condition: (c,d,m,r) => c === "yes" && d === "yes" && m === "yes" && r === "no",
       steps: [
         "Complete Commandant packet, PAC and BCTA",
-        "Serve as a Commander for one period (after-school or one period elective)",
+        "Serve as a Commandant for one period (after-school or one period elective)",
         "Apply for TAG Letter once 1 year recency is achieved",
         "Enroll in credential program"
       ]
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       condition: (c,d,m,r) => c === "yes" && d === "no" && m === "no",
       steps: [
         "Complete Commandant packet, PAC and BCTA",
-        "Serve as a Commander for one period (after-school or one period elective)",
+        "Serve as a Commandant for one period (after-school or one period elective)",
         "Gain 4 years of service as a CACC Commandant (to meet experience requirement)",
         "Apply for TAG Letter",
         "Enroll in credential program"
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
       condition: (c,d,m,r) => c === "yes" && d === "no" && m === "yes" && r === "no",
       steps: [
         "Complete Commandant packet, PAC and BCTA",
-        "Serve as a Commander for one period (after-school or one period elective)",
+        "Serve as a Commandant for one period (after-school or one period elective)",
         "Apply for TAG Letter after recency is met (1 year within last 3 years)",
         "Enroll in credential program"
       ]
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
       steps: [
         "Complete Commandant packet, PAC and BCTA",
         "Enroll in college and work toward bachelor’s degree (pay discussion)",
-        "Volunteer and become an assistant commandant to gain exposure and work toward 4 years of military.",
+        "Volunteer and become an assistant Commandant to gain exposure and work toward 4 years of military.",
         "Apply for TAG Letter once experience is met",
         "Enroll in credential program when eligible"
       ]
