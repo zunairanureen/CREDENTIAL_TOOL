@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
       condition: (c,d,m,r) => c === "yes" && d === "no" && m === "no",
       steps: [
         "Complete Commandant packet, PAC and BCTA",
-        "Serve as a Commandant for one period (after-school or one period elective)",
+        "Enroll in college and pursue bachelor’s degree (higher pay discussion)",
         "Gain 4 years of service as a CACC Commandant (to meet experience requirement)",
         "Apply for TAG Letter",
         "Enroll in credential program"
